@@ -1,0 +1,98 @@
+body{
+  height: 95vh;
+  width: 90vw;
+  margin:0;
+  padding:0;
+}
+
+.container {
+  max-width: 900px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 75px;
+  margin-bottom: 25px;
+}
+
+header button {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: rgb(21,20,20);
+  color: white;
+  font-size: 20px;
+
+}
+
+.cards-container {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.card {
+  width: 225px;
+  height: 225px;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 750px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal button {
+  padding: 10px 20px;
+    font-size: 20px;
+    width: 100%;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.modal .close {
+  margin-top: 7px;
+  background-color: rgb(193,15,15);
+}
+
+.icon {
+  margin-right:10px;
+  cursor: pointer;
+}
+
+.error {
+  color: brown;
+}
